@@ -1,0 +1,3 @@
+﻿dotnet ef database update --connection "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\larod\source\repos\PedroGallardoColon\KairoBank.Data\DB\DatabaseTest.mdf;Integrated Security=True;Connect Timeout=30"
+
+dotnet ef dbcontext scaffold "Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=C:\Users\larod\source\repos\PedroGallardoColon\KairoBank.Data\DB\DatabaseTest.mdf;Integrated Security=True;Connect Timeout=30" Microsoft.EntityFrameworkCore.SqlServer --data-annotations --context KairoBankDbContext --context-dir ./ef --output-dir ./entities --force --no-onconfiguring

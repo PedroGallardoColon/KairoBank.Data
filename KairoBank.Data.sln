@@ -5,7 +5,20 @@ VisualStudioVersion = 17.2.32505.173
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KairoBank.Data", "KairoBank.Data\KairoBank.Data.csproj", "{0CB41697-BB0B-4F28-AC71-45A55D7BF590}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KairoBank.Data.Tests", "KairoBank.Data.Tests\KairoBank.Data.Tests.csproj", "{AA86FFE6-7674-4156-AAB0-653C0DD409BA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KairoBank.Data.Tests", "KairoBank.Data.Tests\KairoBank.Data.Tests.csproj", "{AA86FFE6-7674-4156-AAB0-653C0DD409BA}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Doc", "Doc", "{BFFB741F-2920-4CAC-B0AE-DE55C07978E6}"
+	ProjectSection(SolutionItems) = preProject
+		Doc\PRODUCTO 1 _ GRUPO .TIME _ PROYECTO .NET.pdf = Doc\PRODUCTO 1 _ GRUPO .TIME _ PROYECTO .NET.pdf
+		Doc\Producto2..docx = Doc\Producto2..docx
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Db", "Db", "{CC7703AD-4794-40C5-B1F0-2BAF8096826C}"
+	ProjectSection(SolutionItems) = preProject
+		DB\DatabaseTest.mdf = DB\DatabaseTest.mdf
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KairoBank.Api", "KairoBank.Api\KairoBank.Api.csproj", "{AFD1DEBA-5346-4DCA-AAEE-789DC92AD919}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +34,10 @@ Global
 		{AA86FFE6-7674-4156-AAB0-653C0DD409BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA86FFE6-7674-4156-AAB0-653C0DD409BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA86FFE6-7674-4156-AAB0-653C0DD409BA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AFD1DEBA-5346-4DCA-AAEE-789DC92AD919}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AFD1DEBA-5346-4DCA-AAEE-789DC92AD919}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AFD1DEBA-5346-4DCA-AAEE-789DC92AD919}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AFD1DEBA-5346-4DCA-AAEE-789DC92AD919}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
